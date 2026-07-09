@@ -1,17 +1,16 @@
 import Nav from "@/Components/Nav";
-import ChatPage from "@/Components/ChatPage"
-import Input from "@/Components/Input";
-
+import ChatPage from "@/Components/ChatPage";
 
 function Chat() {
   return (
-    <div className="bg-linear-to-r to-black  from-slate-800 w-full h-screen text-white p-5 justify-start items-center flex flex-col ">
-        <Nav/>
-        <ChatPage/>
-        <Input/>
-
+    <div
+      className=" bg-linear-to-r to-black  from-slate-800 p-5 
+                   w-full min-h-screen h-auto flex flex-col items-center"
+    >
+      <Nav />
+      <ChatPage />
     </div>
-  )
+  );
 }
 
-export default Chat
+export default Chat;

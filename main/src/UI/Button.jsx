@@ -18,40 +18,40 @@ const Button = () => {
   const navigateChat = () => {
     setLoading(true);
     setTimeout(() => {
-      navigate('/chat');
+      navigate("/chat");
     }, 2000);
   };
   return (
     <>
-    {loading && <Loader/>}
-    <StyledWrapper className="w-25">
-      <div className="w-25">
-        <svg style={{ position: "absolute", width: 0, height: 0 }}>
-          <filter
-            width="3000%"
-            x="-1000%"
-            height="3000%"
-            y="-1000%"
-            id="unopaq"
-          >
-            <feColorMatrix
-              values="1 0 0 0 0 
+      {loading && <Loader />}
+      <StyledWrapper className="w-25 ">
+        <div className="w-25">
+          <svg style={{ position: "absolute", width: 0, height: 0 }}>
+            <filter
+              width="3000%"
+              x="-2000%"
+              height="3000%"
+              y="-1000%"
+              id="unopaq"
+            >
+              <feColorMatrix
+                values="1 0 0 0 0 
             0 1 0 0 0 
             0 0 1 0 0 
             0 0 0 3 0"
-            />
-          </filter>
-        </svg>
-        <div className="backdrop w-25" />
-        <button className="button w-25" onClick={navigateChat}>
-          <div className="a l" />
-          <div className="a r" />
-          <div className="a t" />
-          <div className="a b" />
-          <div className="text">Start Prompting</div>
-        </button>
-      </div>
-    </StyledWrapper>
+              />
+            </filter>
+          </svg>
+          <div className="backdrop w-25" />
+          <button className="button w-25" onClick={navigateChat}>
+            <div className="a l" />
+            <div className="a r" />
+            <div className="a t" />
+            <div className="a b" />
+            <div className="text">Start Prompting</div>
+          </button>
+        </div>
+      </StyledWrapper>
     </>
   );
 };
@@ -63,7 +63,7 @@ const StyledWrapper = styled.div`
     border: none;
     width: 130px;
     height: 60px;
-    background: #111;
+    background:;
     color: #fff;
     padding: 2px;
   }

@@ -4,7 +4,7 @@ import Galaxy from "@/Components/Galaxy";
 
 function Home() {
   return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-black">
+    <div className="relative w-full min-h-screen overflow-hidden bg-linear-to-r from-slate-900 to-black">
       <div className="absolute inset-0 z-0">
         <Galaxy
           density={1}
@@ -21,7 +21,7 @@ function Home() {
       </div>
 
       <div className="relative z-10 min-h-screen flex items-center justify-start text-white p-5  flex-col">
-        <main className="flex-1 items-center justify-center">
+        <main className="flex-1  items-center justify-center">
         <HomePage/>
         </main>
         <Footer />
