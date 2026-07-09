@@ -23,5 +23,4 @@ A modern AI chat application inspired by Google's Gemini, built with **React** a
 ## Here is an over view about the home page
 <img src="./main/public/home.png" />
 
-# you can see Live Demo of it from here
-<a href="https://rou-steel.vercel.app/" target="_blank">Visit Me</a>
+# you can see Live Demo of it from here: <a href="https://rou-steel.vercel.app/" target="_blank" style="text-decoration:none; color:green; ">Visit Me</a>
