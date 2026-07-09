@@ -141,7 +141,7 @@ export default function ChatPage() {
         <input
           value={content}
           onChange={(text) => setContent(text.target.value)}
-          placeholder="Ask BOo"
+          placeholder="Ask Rou"
           onKeyDown={(inputKey) => {
             if (inputKey.key === "Enter") {
               inputKey.preventDefault();
